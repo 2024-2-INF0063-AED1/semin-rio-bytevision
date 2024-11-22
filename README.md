@@ -28,4 +28,13 @@ Membros:
       Se é só sanduíche ou no combo.
       Qual bebida o cliente escolheu? 
      
-     
+   —> METODOLOGIA 
+ 
+   O programa irá funcionar com dois usuários em mente: o cliente e o funcionário que está na cozinha,
+no lado do cliente ele terá a opção somente de cadastrar seu pedido, o pedido do cliente será armazenado em uma
+comanda dentro do sistema e será colocado em uma fila de pedidos, o pedido na fila por sua vez será encaminhado
+para um dos funcionários assim que um deles tiver terminado o preparo de outro pedido.
+	No lado do funcionário ele tem as opções de visualizar a comanda que vai mostrar todos os dados do pedido
+feito pelo cliente e ele também tem a opção de finalizar o pedido que atualiza o status do funcionário como livre
+e a opção de chamar o proximo pedido que manda para ele o pedido seguindte na fila, nota-se que na parte do empregado cada um tem um número
+associado e precisa inserir esse número para ter acesso ao programa.		
