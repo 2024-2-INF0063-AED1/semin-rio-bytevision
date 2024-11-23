@@ -12,31 +12,31 @@ Membros:
    O maior problemas desse sistema é saber a ordem de preparo dos pedidos, pois nos horários de pico(ocorrência de maior número de pedidos simultâneos) chegam 5 - 10 pedidos ao mesmo tempo, na cozinha fica difícil saber qual dar prioridade e se não ocorram erros nos pedidos, se estão corretos, saber quais foram feitos e quais ainda precisam ser feitos e entregues.
    Outro problema é a organização para facilitar a leitura dos pedidos, pois em um só pedido tem a escolha do molho e do lanche, se é no combo ou não, se vai bebida no pedido, se quer remover ou adicionar algum item no sanduíche essas informações tem que estão organizadas em um único pedido de forma fácil e prática para facilitar a leitura do pedido na hora de montagem isso tendo em mente a velocidade acelerada do fast food e a cotidade grande de comandas ao mesmo tempo.
   
-   —> LITERATURA:
-. Os desafios do Supply Chain para restaurantes e fast food (POSTS): https://www.teknisa.com/blog/supply-chain/
-. Confira dicas para melhorar o fluxo de pedidos do seu restaurante (#5 Conte com um sistema que centraliza os pedidos): https://www.kcms.com.br/blog/fluxo-pedidos-delivery/
-. Automação comercial: a estratégia para aumentar os lucros do varejo de food (essa última mostra como alguns programas podem aumentar muito os lucros dos restaurantes fast food): https://www.teknisa.com/blog/automacao-comercial-para-o-food-service/
+   —> LITERATURA:<br>
+. Os desafios do Supply Chain para restaurantes e fast food (POSTS): https://www.teknisa.com/blog/supply-chain/<br>
+. Confira dicas para melhorar o fluxo de pedidos do seu restaurante (#5 Conte com um sistema que centraliza os pedidos): https://www.kcms.com.br/blog/fluxo-pedidos-delivery/<br>
+. Automação comercial: a estratégia para aumentar os lucros do varejo de food (essa última mostra como alguns programas podem aumentar muito os lucros dos restaurantes fast food): https://www.teknisa.com/blog/automacao-comercial-para-o-food-service/<br>
    
-   —> DATASET: Os dados a serem armazenados.
-      Nome do cliente.
-      Número do pedido (numero da comanda).
-      Endereço (caso seja delivery).
-      Data e hora em que o pedido foi feito.
-      Qual sanduíche o cliente escolheu?
-      Se tem alteração no sanduíche (ingrediente a ser adicionado ou removido).
-      Qual molho o cliente escolheu?
-      Se é só sanduíche ou no combo.
+   —> DATASET: Os dados a serem armazenados.<br>
+      Nome do cliente.<br>
+      Número do pedido (numero da comanda).<br>
+      Endereço (caso seja delivery).<br>
+      Data e hora em que o pedido foi feito.<br>
+      Qual sanduíche o cliente escolheu?<br>
+      Se tem alteração no sanduíche (ingrediente a ser adicionado ou removido).<br>
+      Qual molho o cliente escolheu?<br>
+      Se é só sanduíche ou no combo.<br>
       Qual bebida o cliente escolheu? 
 
-   —> MÉTODOS: Os métodos utilizados para o projeto incluem:
-. Implementação de uma estrutura de dados baseada em filas prioritárias para organizar os pedidos, priorizando com base em tempo de espera e tipo de pedido.
-. Utilização de ferramentas para acompanhar em tempo real o status dos pedidos na fila.
+   —> MÉTODOS: Os métodos utilizados para o projeto incluem:<br>
+. Implementação de uma estrutura de dados baseada em filas prioritárias para organizar os pedidos, priorizando com base em tempo de espera e tipo de pedido.<br>
+. Utilização de ferramentas para acompanhar em tempo real o status dos pedidos na fila.<br>
 . Desenvolvimento de uma interface gráfica intuitiva para faciltar a entrada de dados pelo cliente e o gerenciamento dos pedidos pelo funcionário.
 
-   —> AVALIAÇÃO: Os resultados serão medidos com as seguintes métricas e métodos:
-. Tempo Médio de processamento de pedidos.
-. Redução de erros: Contagem de erros nos pedidos antes e após a implementação do sistema.
-. Satisfação do cliente: Realizar pesquisas de satisfação dos clientes para avaliar a qualidade do serviço.
+   —> AVALIAÇÃO: Os resultados serão medidos com as seguintes métricas e métodos:<br>
+. Tempo Médio de processamento de pedidos.<br>
+. Redução de erros: Contagem de erros nos pedidos antes e após a implementação do sistema.<br>
+. Satisfação do cliente: Realizar pesquisas de satisfação dos clientes para avaliar a qualidade do serviço.<br>
 . Satisfação do funcionário: Avaliar a facilidade e eficiência do sistema pelos funcionários.
      
    —> METODOLOGIA 
