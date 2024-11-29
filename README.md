@@ -36,8 +36,8 @@ Qual bebida o cliente escolheu?
 . Satisfação do funcionário: Avaliar a facilidade e eficiência do sistema pelos funcionários.
 
 II) Fundamentos Teóricos
- -primeiro inicio a fila e os atributos a serem usados para fazer o pedido.
- -inicio o programa perguntando o nome do cliente, qual sanduiche ele quer, qual molho, se quer mudar o sanduiche, se quer no combo ou não e se vai querer bebida.
+- primeiro inicio a fila e os atributos a serem usados para fazer o pedido.
+- inicio o programa perguntando o nome do cliente, qual sanduiche ele quer, qual molho, se quer mudar o sanduiche, se quer no combo ou não e se vai querer bebida.
 - retorno pro cliente os detalhes do pedido e sua senha  e mandar para a cozinha os detalhes dos pedidos com o numero da comanda (senha)
 - todos os dados serram armazenados em uma fila para os pedidos serem armazenados em ordem para organização e ajudar a ter um controle de ordem de chegada dos pedidos de qual tem quer ser preparado primeiro na cozinha 
 Principais Métricas: hora do pedido ( vemos o tempo de entrega dos pedidos), senha ( identificar de quem é  o pedido), opção de sanduiche e combo ( valor a ser cobrado para encontrar o valor da venda e ter uma noção do valor médio por venda)
