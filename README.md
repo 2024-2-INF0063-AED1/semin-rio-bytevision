@@ -45,4 +45,11 @@ Principais Métricas: hora do pedido ( vemos o tempo de entrega dos pedidos), se
 III) METODOLOGIA
 
 O programa irá funcionar com dois usuários em mente: o cliente e o funcionário que está na cozinha, no lado do cliente ele terá a opção somente de cadastrar seu pedido, o pedido do cliente será armazenado em uma comanda dentro do sistema e será colocado em uma fila de pedidos, o pedido na fila por sua vez será encaminhado para um dos funcionários assim que um deles tiver terminado o preparo de outro pedido. No lado do funcionário, ele tem as opções de visualizar a comanda que vai mostrar todos os dados do pedido feito pelo cliente e ele também tem a opção de finalizar o pedido que atualiza o status do funcionário como livre e a opção de chamar o próximo pedido que manda para ele o pedido seguinte na fila. Nota-se que na parte do empregado cada um tem um número associado e precisa inserir esse número para ter acesso ao programa.  
-     
+
+IV) RESULTADOS E CONCLUSÕES
+
+resultados: o programa funciona como esperado porém apresenta problemas de performance quando executado em um compilador online como o onlineGDB.
+
+![resultado ](https://github.com/user-attachments/assets/7252d89a-16b8-40d9-8ebb-e7af753336c1)
+
+conclusões: o conhecimento sobre ponteiros e structs foi fundamental para a implemetação da fila de pedidos porém varias otimizações podiam ser feitas para melhorar o funcionamento do programa.  
