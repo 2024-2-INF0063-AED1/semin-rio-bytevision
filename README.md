@@ -3,7 +3,11 @@
 ## Membros:
 - **202302551** - Jeovane do Nascimento Mendonça  
 - **202302578** - Pedro Campos Jacob  
-- **202302593** - Vitor Alfredo Cardoso de Pádua  
+- **202302593** - Vitor Alfredo Cardoso de Pádua<br>
+
+**Resumo**: O projeto visa resolver problemas comuns em restaurantes fast food, como organização e priorização de pedidos, minimização de erros e melhoria na experiência do cliente e dos funcionários. Utilizando estruturas de dados como filas prioritárias, o sistema armazena, organiza e apresenta os pedidos de maneira eficiente. O projeto também reforça o uso de conceitos como ponteiros e structs para uma solução robusta e escalável, com espaço para aprimoramentos futuros.<br>
+
+**Palavras-chave**: Fast-Food, Organização de Pedidos, Fila Prioritária, Automação, Satisfação do Cliente
 
 ---
 
